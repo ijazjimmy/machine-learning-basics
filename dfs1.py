@@ -1,3 +1,8 @@
+"""First attempt at a depth first search through a binary through algorithim. Very basic as it only works for binary trees and does not support graphs,
+there is no method to delete or edit nodes. There is not much error feedback for the case where the target is not in the binary tree. The stack should be able
+to backtrack, i.e (Pop elements and go backwards which would make the code more efficent).
+"""
+
 class Node:
     def __init__(self,data):
         self.data = data
