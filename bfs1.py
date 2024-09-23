@@ -93,3 +93,9 @@ node.insert(2)
 node.insert(-1)
 node.insert(-3)
 print(bfs(node,100))
+print(bfs(node,-3))
+
+"""
+Output -> 100 not found in tree:[1, -1, 3, -3, 2, 4]
+          Path to -3: [1, -1, 3, -3]
+"""
